@@ -226,17 +226,41 @@ This section presents the experimental results obtained on the Iris and Wine dat
 
 The following visualizations were generated to analyze model performance:
 
-1. **Results Comparison (Bar Plot):** Grouped bar plots comparing all models across Accuracy, F1-Score, and AUROC for both datasets.
+#### 5.2.1 Results Comparison (Bar Plot)
 
-2. **Custom vs Sklearn Comparison:** Side-by-side comparison of custom and scikit-learn implementations for each model type.
+Grouped bar plots comparing all models across Accuracy, F1-Score, and AUROC for both datasets.
 
-3. **Heatmap Visualization:** Heatmap representation of model performance enabling quick visual comparison across datasets and metrics.
+![Results Comparison](results_comparison.png)
 
-4. **Decision Tree vs Ensembles:** Comparison highlighting the performance improvement of ensemble methods over standalone Decision Trees.
+#### 5.2.2 Custom vs Sklearn Comparison
 
-5. **Effect of Number of Trees:** Line plots showing how accuracy changes with increasing number of trees for Random Forest and Extra Trees.
+Side-by-side comparison of custom and scikit-learn implementations for each model type.
 
-6. **Effect of Max Depth:** Bar plots showing the bias-variance tradeoff as tree depth increases.
+![Custom vs Sklearn Comparison](custom_vs_sklearn.png)
+
+#### 5.2.3 Heatmap Visualization
+
+Heatmap representation of model performance enabling quick visual comparison across datasets and metrics.
+
+![Heatmap Comparison](heatmap_comparison.png)
+
+#### 5.2.4 Decision Tree vs Ensembles
+
+Comparison highlighting the performance improvement of ensemble methods over standalone Decision Trees.
+
+![Decision Tree vs Ensemble](dt_vs_ensemble.png)
+
+#### 5.2.5 Effect of Number of Trees
+
+Line plots showing how accuracy changes with increasing number of trees for Random Forest and Extra Trees.
+
+![Effect of Number of Trees](n_trees_analysis.png)
+
+#### 5.2.6 Effect of Max Depth
+
+Bar plots showing the bias-variance tradeoff as tree depth increases.
+
+![Effect of Max Depth](max_depth_analysis.png)
 
 ---
 
