@@ -71,7 +71,7 @@ Random Forest is implemented as an ensemble of independently trained CART decisi
 
 **Feature Subsampling:** At each split, only a random subset of features of size:
 
-$$\text{max\_features} = \lfloor \sqrt{d} \rfloor$$
+$$\texttt{max\_features} = \lfloor \sqrt{d} \rfloor$$
 
 is considered, where $d$ is the total number of features.
 
